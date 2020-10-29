@@ -30,6 +30,3 @@ def shuffleArray(nums):
         newlist += mapped[i]
     return newlist
 
-
-    
-    
