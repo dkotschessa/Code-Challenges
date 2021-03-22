@@ -1,9 +1,9 @@
 {
     "python.testing.pytestArgs": [
-        "."
+        "PyBytes"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
-    "python.pythonPath": "/Users/davidkotschessa/code_challenge_tdd/CodechallengesTDD/venv/bin/python3"
+    "python.pythonPath": "/Users/dkotschessa/campaign_manager/CodechallengesTDD/venv/bin/python3"
 }

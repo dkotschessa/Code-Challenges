@@ -1,5 +1,6 @@
-from filter_list import filter_positive_even_numbers
+
 import pytest
+from filter_list import filter_positive_even_numbers
 
 
 params = [
