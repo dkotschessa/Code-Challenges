@@ -4,6 +4,7 @@ from sys import stdout
 import sys
 from valid_colors import print_colors
 
+
 params = [
     (
         "blue", "blue"
@@ -45,4 +46,4 @@ def test_valid_colors_green(capsys):
     with mock.patch('builtins.input', side_effect =["green", "quit"]):
         print_colors()
         out,err = capsys.readouterr()
-        assert out == "bye\n"
+        assert out == "not a valid color\nbye\n"
