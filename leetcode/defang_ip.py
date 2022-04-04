@@ -15,12 +15,11 @@ Input: address = "255.100.50.0"
 Output: "255[.]100[.]50[.]0"
 """
 
-def Defang(address):
-    check_address = address.split('.')
-    if len(check_address ) != 4:
-        return("Not a valid IP address")
-    if False in [int(x) < 256 for x in check_address]:
-        return("Not a valid IP address")
-    return address.replace('.', '[.]')
-    
 
+def Defang(address):
+    check_address = address.split(".")
+    if len(check_address) != 4:
+        return "Not a valid IP address"
+    if False in [int(x) < 256 for x in check_address]:
+        return "Not a valid IP address"
+    return address.replace(".", "[.]")
